@@ -109,3 +109,35 @@ def cube(num)
 end
 
 puts cube(3)
+
+
+# string interprolation
+teacher_name = 'raymond'
+puts "my name is #{teacher_name}"
+
+
+# adding to array
+array = ['apple', 'bannana', 'orange']
+array << "grapes"
+puts array
+
+# numbers and booleans are automatically frozen
+puts 10.frozen?
+puts true.frozen?
+
+# classes
+class Person
+    attr_reader :age 
+
+    def initialize()
+        @age = 21 # similiar to this.age in javascript
+    end
+    def increase_age
+        @age += 1
+    end
+end
+
+# attributes are private by default
+person = Person.new
+puts person.increase_age
+puts person.age
