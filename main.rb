@@ -47,5 +47,7 @@ puts Math.sqrt(36)
 
 #  user input
 puts "Enter your Name: "
-user_name = gets
-puts ("Hello " + user_name)
+user_name = gets.chomp
+puts "Enter your Age: "
+user_age = gets.chomp()
+puts ("Hello " + user_name + ". You are " + user_age)
