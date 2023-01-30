@@ -127,8 +127,10 @@ puts true.frozen?
 
 # classes
 class Person
-    attr_reader :age 
-
+    attr_reader :age #read one
+    attr_writer :age # write mode
+    attr_accessor :age #getter and setter
+    
     def initialize()
         @age = 21 # similiar to this.age in javascript
     end
