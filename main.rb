@@ -52,12 +52,21 @@ puts Math.sqrt(36)
 # user_age = gets.chomp()
 # puts ("Hello " + user_name + ". You are " + user_age)
 
-# simple calculator
-puts "Enter a number: "
-num1 = gets.chomp()
-puts "Enter another number"
-num2 = gets.chomp()
-# gets returns a string, to_i converts to INT
-puts (num1.to_i + num2.to_i)
-# use .to_f when you want to allow decimals
+# # simple calculator
+# puts "Enter a number: "
+# num1 = gets.chomp()
+# puts "Enter another number"
+# num2 = gets.chomp()
+# # gets returns a string, to_i converts to INT
+# puts (num1.to_i + num2.to_i)
+# # use .to_f when you want to allow decimals
 
+# Arrays
+my_friends = Array["Tasha", "Natasha", "Liz", "Rita"]
+puts my_friends
+
+my_sorted_array = Array["Kevin", 1, true]
+puts my_sorted_array
+
+puts my_friends.reverse() # reverses
+puts my_friends.sort() # sorts alphabetically
