@@ -89,3 +89,16 @@ numbers = {
 }
 
 puts numbers[1]
+
+#methods
+def sayhi
+  puts "Hello User"
+end
+
+sayhi # how to call a function
+
+def hello(name)
+    puts("Hello " + name)
+end
+
+hello("Louisa")
