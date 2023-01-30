@@ -102,3 +102,10 @@ def hello(name)
 end
 
 hello("Louisa")
+
+# using return statement
+def cube(num)
+    return num * num * num
+end
+
+puts cube(3)
