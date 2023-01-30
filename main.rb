@@ -46,8 +46,18 @@ puts ("my favorite number is " + num.to_s)
 puts Math.sqrt(36)
 
 #  user input
-puts "Enter your Name: "
-user_name = gets.chomp
-puts "Enter your Age: "
-user_age = gets.chomp()
-puts ("Hello " + user_name + ". You are " + user_age)
+# puts "Enter your Name: "
+# user_name = gets.chomp
+# puts "Enter your Age: "
+# user_age = gets.chomp()
+# puts ("Hello " + user_name + ". You are " + user_age)
+
+# simple calculator
+puts "Enter a number: "
+num1 = gets.chomp()
+puts "Enter another number"
+num2 = gets.chomp()
+# gets returns a string, to_i converts to INT
+puts (num1.to_i + num2.to_i)
+# use .to_f when you want to allow decimals
+
