@@ -8,3 +8,9 @@ puts my_string
 print "giraffe"
 # print prints things on the same line
 puts "Louisa"
+
+# print a shape
+puts "   /|"
+puts "  / |"
+puts " /  |"
+puts "/___|"
