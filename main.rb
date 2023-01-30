@@ -44,3 +44,8 @@ puts num * 8
 puts ("my favorite number is " + num.to_s)
 # square root
 puts Math.sqrt(36)
+
+#  user input
+puts "Enter your Name: "
+user_name = gets
+puts ("Hello " + user_name)
