@@ -70,3 +70,22 @@ puts my_sorted_array
 
 puts my_friends.reverse() # reverses
 puts my_friends.sort() # sorts alphabetically
+
+# hashes
+states = {
+    "Pennslyvannia" => "PA",
+    "New York" => "NY",
+    "Oregon" => "OR",
+    "Minnesota" => 'MN'
+}
+
+puts states["New York"]
+puts states["Pennslyvannia"]
+
+numbers = {
+    1 => "One",
+    2 => "Two",
+    3 => "Three"
+}
+
+puts numbers[1]
