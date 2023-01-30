@@ -30,3 +30,17 @@ puts my_num
 puts my_string
 puts my_boolean
 puts my_float
+
+# Working with numbers
+puts 5 + 5 
+puts 10 - 2
+puts 12 * 6
+puts 12 / 6
+puts 10 % 3 # prints out the remainder
+puts 2**3 #2 raised to the 3rd power
+num = 10
+puts num * 8
+# .to_s converts it to a string
+puts ("my favorite number is " + num.to_s)
+# square root
+puts Math.sqrt(36)
